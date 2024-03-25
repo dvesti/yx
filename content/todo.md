@@ -104,51 +104,6 @@ If anyone is interested in any of the items below, please feel free to let me kn
 1. JavaScript for R https://book.javascript-for-r.com Seems to be an interesting book on the only two languages that I understand.
 1. https://atrebas.github.io/post/2020-06-17-datatable-introduction/ https://martinctc.github.io/blog/comparing-common-operations-in-dplyr-and-data.table/
 
-## 待办事项
-
-1. https://yufree.cn/cn/2018/03/24/blogdown-rss/
-
-## 私人事项
-
-1. 这位大人对 knitr 钻研似乎颇深，是个人才，也许可以拉来做点什么事：<https://stackoverflow.com/users/2706569/cl>
-1. 家教有关的阅读
-    - https://twitter.com/Idzie/status/1247946036733190145
-    - https://www.thecut.com/2020/03/unschooling-your-kids-during-coronavirus-quarantine.html
-    - https://qz.com/1828551/parents-who-didnt-choose-to-homeschool-this-is-an-opportunity/
-1. https://www.samuelthomasdavies.com/book-summaries/business/deep-work/
-1. 黑客与画家 http://idlewords.com/2005/04/dabblers_and_blowhards.htm
-1. [教养的迷思](https://book.douban.com/subject/26612510/) https://mp.weixin.qq.com/s/4XmMuUV2XbM-UMD4GJGUMQ
-1. [家庭、私有制和国家的起源](https://www.marxists.org/chinese/engels/marxist.org-chinese-engels-1884-3.htm) https://en.wikipedia.org/wiki/The_Origin_of_the_Family,_Private_Property_and_the_State
-1. Note-taking/todo app https://d.cosx.org/d/419756/10 https://noteplan.co https://everydaycheck.com https://twitter.com/OilGains/status/1085929376741556230
-1. Stoicism: https://dailystoic.com/letters-from-a-stoic/ https://www.lettersfromastoic.net/letter-4/
-1. ggplot 灰色背景：https://stats.stackexchange.com/q/25220/10946 https://twitter.com/WilliamsNeuro/status/1318419069968658432
-1. 为 XD 和邻居架设网站
-1. [洛宁蒸肉](https://mp.weixin.qq.com/s/6UGYqfXzvBjBa8xJYPhGFQ)：五花肉、粉丝、玉米面、葱姜蒜、酱油、蚝油、盐。
-1. 毛笔字：<https://www.zgbk.com/dzb/jy/sfxx/>
-
-## 随机事项
-
-1. JS 生成声音：<https://github.com/R4meau/plink-plonk/blob/master/content.js> 暂时不知道用它干啥，但感觉要是跟 Shiny 鬼混在一起也许能玩出什么花样来。
-1. https://two.js.org
-1. https://github.com/seankross/postcards
-1. https://github.com/etiennebacher/docsifier
-1. https://twitter.com/Warreningshot/status/1379664918450905089 blogdown 复古主题？
-1. https://github.com/commit-intl/micro-down 简版的 Markdown JS 库
-
-## 日程安排
-
-| 时间 | 事项                                             |
-|------|--------------------------------------------------|
-| 周一 | 朝九晚五；下午核查团队工作进度 |
-| 周二 | 朝九晚五 |
-| 周三 | 朝九晚五 |
-| 周四 | 朝九晚五 |
-| 周五 | 下午非紧急邮件、COS + SO 论坛；微博；推特 |
-| 周六 |  |
-| 周日 | 晚上看 Feedly |
-
-另外，每天下班前一小时：查阅 Github 事项、安排第二天工作。晚 11 点后回复微信。
-
 
 <script>
 document.querySelectorAll('.main a').forEach(function(el) {

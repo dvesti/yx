@@ -1,0 +1,41 @@
+---
+title: ani.options()
+subtitle: Set or query animation options
+date: '2017-04-04'
+slug: ani-options
+---
+
+
+
+<p>There are various parameters that control the behaviour of the animation,
+such as time interval, maximum number of animation frames, height and width,
+etc.</p>
+<pre class="r"><code>library(animation)
+## see the first example in help(animation) on how to set and restore animation options
+
+## use the PDF device: remember to set &#39;ani.type&#39; accordingly
+ani.options(ani.dev = &#39;pdf&#39;, ani.type = &#39;pdf&#39;, ani.height = 5, ani.width = 7)
+
+## use the Cairo PDF device
+## if (require(&#39;Cairo&#39;)) {
+##     ani.options(ani.dev = CairoPDF, ani.type = &#39;pdf&#39;,
+##                 ani.height = 6, ani.width = 6)
+## }
+
+## don&#39;t loop for GIF/HTML animations
+ani.options(loop = FALSE)
+
+## don&#39;t try to open the output automatically
+ani.options(autobrowse = FALSE)
+
+## it&#39;s a good habit to restore the options in the end so that other code will not be affected
+
+
+## how to make use of the hidden option &#39;img.fmt&#39;
+saveHTML(expr = {
+  png(ani.options(&#39;img.fmt&#39;))
+  for(i in 1:5) plot(runif(10))
+  dev.off()
+}, img.name=&#39;custom_plot&#39;, use.dev = FALSE, ani.type=&#39;png&#39;,
+         description=&quot;Note how we use our own graphics device in &#39;expr&#39;.&quot;,
+         htmlfile=&#39;custom_device.html&#39;)</code></pre>

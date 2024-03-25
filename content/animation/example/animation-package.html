@@ -1,0 +1,66 @@
+---
+title: animation-package()
+subtitle: A Gallery of Animations in Statistics and Utilities to Create Animations
+date: '2017-04-04'
+slug: animation-package
+---
+
+
+
+<p>This package contains a variety functions for animations in statistics which
+could probably aid in teaching statistics and data analysis; it also has
+several utilities to export R animations to other formats.</p>
+<p>This package mainly makes use of HTML &amp; JavaScript and R windows graphics
+devices (such as <code>x11</code>) to demonstrate animations in statistics;
+other kinds of output such as Flash (SWF) or GIF animations or PDF animations
+are also available if required software packages have been installed. See
+below for details on each type of animation.</p>
+<pre class="r"><code>library(animation)
+### 1. How to setup a simple animation ###
+
+## set some options first
+ani.options(interval = 0.2, nmax = 10)
+## use a loop to create images one by one
+for (i in 1:ani.options(&#39;nmax&#39;)) {
+  plot(rnorm(30))
+  ani.pause()   ## pause for a while (&#39;interval&#39;)
+}
+## restore the options
+
+
+## see ?ani.record for an alternative way to set up an animation
+
+### 2. Animations in HTML pages ###
+saveHTML({
+  ani.options(interval = 0.05, nmax = 30)
+  par(mar = c(3, 3, 2, 0.5), mgp = c(2, .5, 0), tcl = -0.3,
+      cex.axis = 0.8, cex.lab = 0.8, cex.main = 1)
+  brownian.motion(pch = 21, cex = 5, col = &#39;red&#39;, bg = &#39;yellow&#39;,
+                  main = &#39;Demonstration of Brownian Motion&#39;)
+}, img.name = &#39;bm_plot&#39;, title = &#39;Demonstration of Brownian Motion&#39;,
+         description = c(&#39;Random walk on the 2D plane: for each point&#39;,
+                         &#39;(x, y), x = x + rnorm(1) and y = y + rnorm(1).&#39;))
+
+### 3. GIF animations ###
+saveGIF({
+  ani.options(nmax = 30)
+  brownian.motion(pch = 21, cex = 5, col = &#39;red&#39;, bg = &#39;yellow&#39;)
+}, interval = 0.05, movie.name = &#39;bm_demo.gif&#39;, ani.width = 600, ani.height = 600)
+
+
+### 4. Flash animations ###
+saveSWF({
+  par(mar = c(3, 2.5, 1, 0.2), pch = 20, mgp = c(1.5, 0.5, 0))
+  buffon.needle(type = &#39;S&#39;)
+}, ani.dev = &#39;pdf&#39;, ani.type = &#39;pdf&#39;, swf.name = &#39;buffon.swf&#39;,
+        interval = 0.1, nmax = 40, ani.height = 7, ani.width = 7)
+
+
+### 5. PDF animations ###
+saveLatex({
+  par(mar = c(3, 3, 1, 0.5), mgp = c(2, 0.5, 0), tcl = -0.3,
+      cex.axis = 0.8, cex.lab = 0.8, cex.main = 1)
+  brownian.motion(pch = 21, cex = 5, col = &#39;red&#39;, bg = &#39;yellow&#39;, main = &#39;Brownian Motion&#39;)
+}, img.name = &#39;BM_plot&#39;,
+          latex.filename = &#39;brownian_motion.tex&#39;),
+          interval = 0.1, nmax = 20)</code></pre>

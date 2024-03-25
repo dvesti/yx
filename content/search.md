@@ -1,5 +1,5 @@
 ---
-title: Search | 搜索
+title: Search
 disable_comments: true
 disable_sidenotes: true
 ---
