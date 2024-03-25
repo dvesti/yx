@@ -9,7 +9,7 @@ h1.title::before { content: "➶"; }
 .archive > ul > li {
   list-style: none;
 }
-.archive > ul > li {
+.cn .archive > ul > li {
   display: inline-block;
   margin-right: 1em;
 }
@@ -38,15 +38,15 @@ dt, legend {
 .stats {
   text-align: right;
 }
-.ru.post-nav {
+.cn .post-nav {
   font-size: initial;
 }
-.ru.main > p:first-of-type::first-line {
+.ru .main > p:first-of-type::first-line {
   font-variant: small-caps;
   letter-spacing: .05em;
   font-size: 1.1em;
 }
-.ru.main > p:first-of-type::first-letter {
+.ru .main > p:first-of-type::first-letter {
   font-size: 3em;
   padding: .1em .1em 0 0;
   float: left;
@@ -77,10 +77,10 @@ code[class="fullwidth"] {
 .comments {
   margin-top: 1em;
 }
-del {
+.cn .del {
   background-color: #444;
 }
-del:hover {
+.cn .del:hover {
   background-color: inherit;
   text-decoration: inherit;
 }

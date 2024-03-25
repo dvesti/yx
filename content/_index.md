@@ -4,8 +4,6 @@ date: '2017-01-31'
 disable_math: true
 ---
 
-Это --- Главная страница
-
 <style type="text/css">
 .home {
   text-align: center;

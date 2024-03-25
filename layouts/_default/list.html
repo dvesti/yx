@@ -13,7 +13,7 @@
   {{ range .Pages.GroupByDate "01" }}
 <ul>
   {{- range .Pages -}}
-<li{{ with .Params.page_class }} class="{{ . }}"{{ end }}><span>{{ .Date.Format "2006-01-02" }}</span> <a href="{{ .RelPermalink }}">{{ .Title | markdownify }}</a></li>
+<li{{ with .Params.page_class }} class="{{ . }}"{{ end }}><span>{{ .Date.Format "2006-01-02" }}</span>&nbsp; &nbsp;<a href="{{ .RelPermalink }}">{{ .Title | markdownify }}</a></li>
 {{ end }}</ul>
   {{ end }}
   {{ end }}
