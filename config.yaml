@@ -1,6 +1,6 @@
 baseurl: "https://yihui.org/"
 languageCode: "ru-RU"
-title: "Yihui Xie"
+title: "Паж при Короле"
 theme: "hugo-paged"
 ignoreFiles: ["\\.Rmd$", "\\.Rmarkdown$", "_cache$"]
 hasCJKLanguage: true
@@ -56,13 +56,13 @@ menu:
     - name: "FAQ"
       url: "/knitr/faq/"
       weight: 5
-    - name: "Github"
-      pre: "github"
-      url: "https://github.com/yihui/knitr"
-      weight: 6
-    - name: "Yihui Xie"
-      url: "/"
-      weight: 7
+#    - name: "Github"
+#      pre: "github"
+#      url: "https://github.com/yihui/knitr"
+#      weight: 6
+#    - name: "Yihui Xie"
+#      url: "/"
+#      weight: 7
 
 params:
   description: "Сайт Ух"
