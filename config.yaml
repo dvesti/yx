@@ -1,6 +1,6 @@
 baseurl: "https://yihui.org/"
 languageCode: "en-US"
-title: "Yihui Xie | 谢益辉"
+title: "Yihui Xie"
 theme: "hugo-paged"
 ignoreFiles: ["\\.Rmd$", "\\.Rmarkdown$", "_cache$"]
 hasCJKLanguage: true
@@ -146,7 +146,7 @@ menu:
       weight: 7
 
 params:
-  description: "Personal website of Yihui Xie; 谢益辉的个人网站"
+  description: "Personal website of Yihui Xie"
   footer: "&copy; [Yihui Xie](/) 2001 - {Year}"
   customJS:
     - "comment-utils.js"
