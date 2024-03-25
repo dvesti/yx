@@ -8,4 +8,4 @@ categories:
 tags: []
 ---
 
-Привествую всех, кто зашёл на [наш блог](http://localhost:7022/en/2024/03/privetstvije/)!
+Привествую всех, кто зашёл на [наш блог](https://yxab.netlify.app/)!

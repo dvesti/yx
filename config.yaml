@@ -77,9 +77,9 @@ params:
 
   logo:
     en:
-      img: "/images/logo.png"
+    #  img: "/images/logo.png"
       url: "/"
-      alt: "Logo"
+      alt: LOGO TEXT
     knitr:
       img: "/knitr/images/knit-logo.png"
       url: "/knitr/"

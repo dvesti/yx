@@ -1,4 +1,5 @@
 {{ if not .IsHome }}
+{{ markdownify "[Категории](/categories/) [Тэги](/tags/)" }}
 {{ $section := default .Section ($.Scratch.Get "section") }}
 {{ if .File }}
 {{ with .Site.Params.githubContentURL }}

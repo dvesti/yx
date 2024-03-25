@@ -1,5 +1,5 @@
 ---
-title: Search
+title: Поиск
 disable_comments: true
 disable_sidenotes: true
 ---
