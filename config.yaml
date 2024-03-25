@@ -1,5 +1,5 @@
 baseurl: "https://yihui.org/"
-languageCode: "en-US"
+languageCode: "ru-RU"
 title: "Yihui Xie"
 theme: "hugo-paged"
 ignoreFiles: ["\\.Rmd$", "\\.Rmarkdown$", "_cache$"]
@@ -11,73 +11,35 @@ outputs:
   home: [html, rss, json]
 
 permalinks:
-  cn: "/:sections/:year/:month/:slug/"
+  ru: "/:sections/:year/:month/:slug/"
   en: "/:sections/:year/:month/:slug/"
 
 menu:
   main:
-    - name: "About"
-      url: "/en/about/"
-      weight: 1
-    - name: "Blog"
-      url: "/en/"
-      weight: 2
-    - name: "关于"
-      url: "/cn/about/"
-      weight: 3
-    - name: "日志"
-      url: "/cn/"
-      weight: 4
-  en:
-    - name: "Home"
+    - name: "Главная"
       url: "/"
       weight: 1
-    - name: "About"
-      url: "/en/about/"
+    - name: "О нас"
+      url: "/about/"
       weight: 2
-    - name: "Blog"
-      url: "/en/"
+    - name: "Блог"
+      url: "/ru/"
       weight: 3
-    - name: "Vitae"
-      url: "/en/vitae/"
+    - name: "Поиск"
+      url: "/search/"
+    - name: "GitHub"
+      url: "https://github.com/dvesti/yx"
       weight: 4
-    - name: "Q&A"
-      url: "https://github.com/yihui/yihui.org/discussions"
-      weight: 5
-    - name: "Todo"
-      url: "/todo/"
-      weight: 6
-    - name: "中文"
-      url: "/cn/"
-      weight: 7
-  cn:
-    - name: "首页"
-      url: "/"
-      weight: 1
-    - name: "关于"
-      url: "/cn/about/"
-      weight: 2
-    - name: "日志"
-      url: "/cn/"
-      weight: 3
-    - name: "简历"
-      url: "/cn/vitae/"
-      weight: 4
-    - name: "提问"
-      url: "https://github.com/yihui/yihui.org/discussions"
-      weight: 5
-    - name: "菜谱"
-      url: "/cn/recipe/"
-      weight: 6
-    - name: "孩童"
-      url: "/cn/kids/"
-      weight: 7
-    - name: "事务"
-      url: "/todo/"
-      weight: 8
-    - name: "EN"
-      url: "/en/"
-      weight: 9
+#    - name: "Vitae"
+#      url: "/vitae/"
+#      weight: 4
+#    - name: "Q&A"
+#      url: "https://github.com/yihui/yihui.org/discussions"
+#      weight: 5
+#    - name: "Todo"
+#      url: "/todo/"
+#      weight: 6
+
   knitr:
     - name: "Home"
       url: "/knitr/"
@@ -101,66 +63,23 @@ menu:
     - name: "Yihui Xie"
       url: "/"
       weight: 7
-  animation:
-    - name: "Home"
-      url: "/animation/"
-      weight: 1
-    - name: "Examples"
-      url: "/animation/example/"
-      weight: 2
-    - name: "Export"
-      url: "/animation/export/"
-      weight: 3
-    - name: "Resources"
-      url: "/animation/resources/"
-      weight: 4
-    - name: "Github"
-      pre: "github"
-      url: "https://github.com/yihui/animation"
-      weight: 5
-    - name: "Yihui Xie"
-      url: "/"
-      weight: 6
-  tinytex:
-    - name: "Home"
-      url: "/tinytex/"
-      weight: 1
-    - name: "FAQ"
-      url: "/tinytex/faq/"
-      weight: 2
-    - name: "R package"
-      url: "/tinytex/r/"
-      weight: 3
-    - name: "Hall of Pain"
-      url: "/tinytex/pain/"
-      weight: 4
-    - name: "中文文档"
-      url: "/tinytex/cn/"
-      weight: 5
-    - name: "Github"
-      pre: "github"
-      url: "https://github.com/rstudio/tinytex"
-      weight: 6
-    - name: "Yihui Xie"
-      url: "/"
-      weight: 7
 
 params:
-  description: "Personal website of Yihui Xie"
-  footer: "&copy; [Yihui Xie](/) 2001 - {Year}"
+  description: "Сайт Ух"
+  footer: "&copy; [Vladimir Dmitrijev](/) {Year}"
   customJS:
     - "comment-utils.js"
     - "hash-notes.js"
     - "toggle-notes.js"
     - "post-nav.js"
-  githubContentURL: "https://github.com/yihui/yihui.org/edit/master/content/"
-  twitterImage: "/images/logo.png"
+#  githubContentURL: "https://github.com/yihui/yihui.org/edit/master/content/"
+#  twitterImage: "/images/logo.png"
 
   logo:
     en:
       img: "/images/logo.png"
       url: "/"
-      alt: "Yihui Xie"
+      alt: "Logo"
     knitr:
       img: "/knitr/images/knit-logo.png"
       url: "/knitr/"
@@ -171,21 +90,19 @@ params:
       alt: "tinytex logo"
 
   author:
-    en: "Yihui Xie"
-    cn: "谢益辉"
-    animation: "Yihui Xie & Lijia Yu"
+    ru: Vladimir Dmitrijev
 
   lang:
     edit:
-      cn: "编辑"
+      ru: "Правка"
     license:
-      cn: "版权"
+      ru: "Лицензия"
     subscribe:
-      cn: "订阅"
+      ru: "RSS"
     search:
-      cn: "搜索"
+      ru: "Поиск"
     top:
-      cn: "登顶"
+      ru: "Вверх"
 
 markup:
   highlight:
