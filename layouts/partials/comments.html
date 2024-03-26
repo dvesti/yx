@@ -1,10 +1,10 @@
 {{ if and (not .Params.disable_comments) (or (eq .Kind "404") (and (not .IsHome) .Content)) }}
 <section class="fullwidth comments">
 <script {{ if $.Site.BuildDrafts }}data-{{ end }}src="https://giscus.app/client.js"
-  data-repo="yihui/yihui.org"
-  data-repo-id="MDEwOlJlcG9zaXRvcnk4MDc3NDg0NA=="
-  data-category="Comments"
-  data-category-id="DIC_kwDOBNCGvM4COkjD"
+  data-repo="dvesti/yx"
+  data-repo-id="R_kgDOLlSOyA"
+  data-category="Q&A"
+  data-category-id="DIC_kwDOLlSOyM4CeO_P"
   data-mapping="{{ if eq $.Kind "404" }}number{{ else }}pathname{{ end }}"{{ if eq $.Kind "404" }} data-term="949"{{ end }}
   data-strict="1"
   data-reactions-enabled="1"
