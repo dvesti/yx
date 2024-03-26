@@ -8,4 +8,4 @@ categories:
 tags: []
 ---
 
-Привествую всех, кто зашёл на [наш блог](https://yxab.netlify.app/)!
+Приветствую всех, кто зашёл на [наш блог](https://yxab.netlify.app/)!
