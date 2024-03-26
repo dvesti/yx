@@ -33,9 +33,9 @@ menu:
 #    - name: "Vitae"
 #      url: "/vitae/"
 #      weight: 4
-#    - name: "Q&A"
-#      url: "https://github.com/yihui/yihui.org/discussions"
-#      weight: 5
+    - name: "Q&A"
+      url: "https://github.com/dvesti/yx/discussions"
+      weight: 5
 #    - name: "Todo"
 #      url: "/todo/"
 #      weight: 6
