@@ -1,6 +1,6 @@
 ---
 title: Тэги
-small subtitle: тэги
+type: тэги
 disable_comments: true
 disable_sidenotes: true
 ---
