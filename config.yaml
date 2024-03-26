@@ -21,10 +21,10 @@ menu:
       weight: 1
     - name: "О нас"
       url: "/about/"
-      weight: 2
+      weight: 3
     - name: "Блог"
       url: "/ru/"
-      weight: 3
+      weight: 2
     - name: "Поиск"
       url: "/search/"
     - name: "GitHub"
@@ -103,6 +103,10 @@ params:
       ru: "Поиск"
     top:
       ru: "Вверх"
+    tags:
+      ru: тэг
+    categories:
+      ru: категория
 
 markup:
   highlight:

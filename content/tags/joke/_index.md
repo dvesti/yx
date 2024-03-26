@@ -1,6 +1,5 @@
 ---
-title: Тэги
-small subtitle: тэги
+title: шутка
 disable_comments: true
 disable_sidenotes: true
 ---

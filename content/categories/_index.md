@@ -1,6 +1,7 @@
 ---
 title: Категории
-small subtitle: категория
+subtitle: категория
+slug: категории
 disable_comments: true
 disable_sidenotes: true
 ---
