@@ -23,9 +23,8 @@ disable_math: true
 }
 </style>
 
-<h1 class="title">Паж при Короле</h1>
+<h1 class="title">Ухабы на дорогах</h1>  
 
-## _автор:_ Vladimir Dmitrijev
 
 - ЧЕТКАЯ
 - ПЕЧАТЬ

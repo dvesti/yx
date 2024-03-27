@@ -1,6 +1,6 @@
-baseurl: "https://yihui.org/"
+baseurl: "https://yxab.netlify.app/"
 languageCode: "ru-RU"
-title: "Паж при Короле"
+title: "Ухабы на дорогах"
 theme: "hugo-paged"
 ignoreFiles: ["\\.Rmd$", "\\.Rmarkdown$", "_cache$"]
 hasCJKLanguage: true
@@ -19,10 +19,10 @@ menu:
     - name: "Главная"
       url: "/"
       weight: 1
-    - name: "О нас"
+    - name: "О блоге"
       url: "/about/"
       weight: 3
-    - name: "Блог"
+    - name: "Архив"
       url: "/ru/"
       weight: 2
     - name: "Поиск"
@@ -39,23 +39,23 @@ menu:
 #    - name: "Todo"
 #      url: "/todo/"
 #      weight: 6
-
-  knitr:
-    - name: "Home"
-      url: "/knitr/"
-      weight: 1
-    - name: "Options"
-      url: "/knitr/options/"
-      weight: 2
-    - name: "Hooks"
-      url: "/knitr/hooks/"
-      weight: 3
-    - name: "Examples"
-      url: "/knitr/demo/"
-      weight: 4
-    - name: "FAQ"
-      url: "/knitr/faq/"
-      weight: 5
+#
+#  knitr:
+#    - name: "Home"
+#      url: "/knitr/"
+#      weight: 1
+#    - name: "Options"
+#      url: "/knitr/options/"
+#      weight: 2
+#    - name: "Hooks"
+#      url: "/knitr/hooks/"
+#      weight: 3
+#    - name: "Examples"
+#      url: "/knitr/demo/"
+#      weight: 4
+#    - name: "FAQ"
+#      url: "/knitr/faq/"
+#      weight: 5
 #    - name: "Github"
 #      pre: "github"
 #      url: "https://github.com/yihui/knitr"
@@ -65,32 +65,37 @@ menu:
 #      weight: 7
 
 params:
-  description: "Сайт Ух"
-  footer: "&copy; 2023--{Year} [Vladimir Dmitrijev](/)"
+  description: "Yxab"
+  footer: "&copy; 2023--{Year} [Dvesti](/)"
   customJS:
     - "comment-utils.js"
     - "hash-notes.js"
     - "toggle-notes.js"
     - "post-nav.js"
+  logo:
+    en:
+      alt: YXAB
+      img: # a path to the logo
 #  githubContentURL: "https://github.com/yihui/yihui.org/edit/master/content/"
 #  twitterImage: "/images/logo.png"
 
-  logo:
-    en:
-    #  img: "/images/logo.png"
-      url: "/"
-      alt: LOGO TEXT
-    knitr:
-      img: "/knitr/images/knit-logo.png"
-      url: "/knitr/"
-      alt: "knitr logo"
-    tinytex:
-      img: "/images/logo-tinytex.png"
-      url: "/tinytex/"
-      alt: "tinytex logo"
-
+#  logo:
+#    en:
+#    ru:
+#    #  img: "/images/logo.png"
+#    url: "/"
+#    alt: Yxab
+#    knitr:
+#      img: "/knitr/images/knit-logo.png"
+#      url: "/knitr/"
+#      alt: "knitr logo"
+#    tinytex:
+#      img: "/images/logo-tinytex.png"
+#      url: "/tinytex/"
+#      alt: "tinytex logo"
+#
   author:
-    ru: Vladimir Dmitrijev
+    ru: Dvesti
 
   lang:
     edit:
@@ -118,4 +123,3 @@ markup:
       autoHeadingIDType: blackfriday
   tableOfContents:
     startLevel: 1
-
