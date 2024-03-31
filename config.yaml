@@ -12,7 +12,7 @@ outputs:
 
 permalinks:
   ru: "/:sections/:year/:month/:slug/"
-  en: "/:sections/:year/:month/:slug/"
+#  en: "/:sections/:year/:month/:slug/"
 
 menu:
   main:
@@ -75,7 +75,8 @@ params:
   logo:
     en:
       alt: YXAB
-      img: # a path to the logo
+      img: "/images/logo.png"
+      url: "/"
 #  githubContentURL: "https://github.com/yihui/yihui.org/edit/master/content/"
 #  twitterImage: "/images/logo.png"
 

@@ -1,7 +1,5 @@
 ---
 title: О блоге
-slug: about
-author: 
 subtitle: Тема о четырёх углах
 #disable_comments: true
 #disable_sidenotes: true
