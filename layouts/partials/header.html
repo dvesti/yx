@@ -8,8 +8,8 @@
     <meta property="og:title" content="{{ .Site.Title }}">
     <meta property="og:type" content="website">
     {{ else }}
-    <title>{{ .Title }}{{ with .Params.subtitle }} - {{ . }} {{ end }} -- {{ .Site.Title }}</title>
-    <meta property="og:title" content="{{ .Title }} -- {{ .Site.Title }}">
+    <title>{{ .Title }}{{ with .Params.subtitle }} - {{ . }} {{ end }} — {{ .Site.Title }}</title>
+    <meta property="og:title" content="{{ .Title }} — {{ .Site.Title }}">
     {{ end }}
     <meta name="twitter:card" content="summary">
     {{ if eq .RelPermalink "/" }}
