@@ -7,7 +7,7 @@ categories:
   - Cats
 tags:
   - joke
-description: "Не лишили бы корыта"
+description: "Как живой!"
 draft: false
 featuredImage: "featured.jpg"
 featuredImagePreview: "featured.jpg"
