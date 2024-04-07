@@ -16,4 +16,4 @@ featuredImagePreview: "featured.jpg"
 Удачный памятник сделали.  
 Как живой...    
 
-![Тигра](featured.jpg)  
+![Тигра](https://yxab.netlify.app/ru/2024/04/kak-zhivoi/featured.jpg)  
