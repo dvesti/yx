@@ -77,8 +77,8 @@ params:
       alt: YXAB
       img: "/images/logo.png"
       url: "/"
-#  githubContentURL: "https://github.com/yihui/yihui.org/edit/master/content/"
-#  twitterImage: "/images/logo.png"
+  githubContentURL: "https://github.com/dvesti/yx/tree/master/content/ru"
+  twitterImage: "/images/logo.png"
 
 #  logo:
 #    en:
