@@ -28,13 +28,13 @@ menu:
     - name: "Поиск"
       url: "/search/"
     - name: "GitHub"
-      url: "https://github.com/dvesti/yx"
+      url: "https://github.com/dvesti/yx/"
       weight: 4
 #    - name: "Vitae"
 #      url: "/vitae/"
 #      weight: 4
     - name: "Q&A"
-      url: "https://github.com/dvesti/yx/discussions"
+      url: "https://github.com/dvesti/yx/discussions/"
       weight: 5
 #    - name: "Todo"
 #      url: "/todo/"
@@ -77,7 +77,7 @@ params:
       alt: YXAB
       img: "/images/logo.jpg"
       url: "/"
-  githubContentURL: "https://github.com/dvesti/yx/tree/master/content/ru"
+  githubContentURL: "https://github.com/dvesti/yx/tree/master/content/ru/"
   twitterImage: "/images/logo.jpg"
 
 #  logo:

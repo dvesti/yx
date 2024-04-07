@@ -8,7 +8,7 @@
 {{ $filePath = (replaceRE "[.]md$" ".Rmd" $.File.Path) }}
 {{ $filePath = (replace $filePath "\\" "/") }}
 {{ end }}
-<a href="{{ or $.Params.githubEditURL  (print .  $filePath) }}" target="_blank">{{ default "Edit this page" (index $.Site.Params.lang.edit $section) }}</a>
+<a href="{{ or $.Params.githubEditURL  (print .  $filePath) }}" target="_blank">{{ default "Исправить текст" (index $.Site.Params.lang.edit $section) }}</a>
 {{ end }}
 {{ end }}
 {{ with .Section }}
