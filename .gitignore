@@ -2,17 +2,13 @@
 .Rhistory
 .RData
 .Ruserdata
-<<<<<<< HEAD
-=======
+
 .DS_Store
->>>>>>> 614c8aa93ad9721f5b1f73961684d17004b0ff3f
+
 Thumbs.db
 /public
 /static/figures
 /static/hardlink
 /blogdown
 .hugo_build.lock
-<<<<<<< HEAD
 
-=======
->>>>>>> 614c8aa93ad9721f5b1f73961684d17004b0ff3f
