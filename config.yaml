@@ -1,5 +1,7 @@
 baseurl: "https://yxab.netlify.app/"
-languageCode: "ru-RU"
+languageCode: "ru_RU"
+# language name
+#languageName: "RU"
 title: "Ухабы на дорогах"
 theme: "hugo-paged"
 ignoreFiles: ["\\.Rmd$", "\\.Rmarkdown$", "_cache$"]
