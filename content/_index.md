@@ -23,9 +23,8 @@ disable_math: true
 }
 </style>
 
-<h1 class="title">Ухабы на дорогах</h1>  
-
+<h1 class="title">Ухабы на дорогах</h1>
 
 - ЧЕТКАЯ
 - ПЕЧАТЬ
-- С МИНИМАЛЬНЫМ CSS
+- С МИНИМАЛЬНЫМ CSS  
