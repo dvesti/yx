@@ -1,7 +1,5 @@
 ---
 title: Главная
-date: '2017-01-31'
-disable_math: true
 ---
 
 <style type="text/css">
@@ -24,6 +22,8 @@ disable_math: true
 </style>
 
 <h1 class="title">Ухабы на дорогах</h1>
+
+<h2>  автор: Dvesti  </h2>
 
 - ЧЕТКАЯ
 - ПЕЧАТЬ

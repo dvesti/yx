@@ -4,7 +4,8 @@
 .Ruserdata
 .DS_Store
 Thumbs.db
-/public
+/public/
+/resources/
 /00public
 /static/figures
 /static/hardlink
