@@ -1,5 +1,4 @@
 baseurl: "https://dvesti.github.io/yx/"
-root: /yx/
 languageCode: "ru"
 # language name
 #languageName: "RU"
@@ -59,9 +58,9 @@ menu:
     - name: "Архив"
       url: "/ru/"
       weight: 2
-#    - name: "Поиск"
-#      url: "/search/"
-#      weight: 6
+    - name: "Поиск"
+      url: "/search/"
+      weight: 6
     - name: "Категории"
       url: "/categories/"
       weight: 3
