@@ -28,9 +28,9 @@ menu:
     - name: "Архив"
       url: "/ru/"
       weight: 2
-#    - name: "Поиск"
-#      url: "/search/"
-#      weight: 6
+    - name: "Поиск"
+      url: "/search/"
+      weight: 6
     - name: "Категории"
       url: "/categories/"
       weight: 3
