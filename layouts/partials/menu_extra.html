@@ -1,5 +1,6 @@
 {{ if not .IsHome }}
-{{ markdownify "[Категории](/categories/) [Тэги](/tags/)" }}
+<!--{{ markdownify "[Категории](/categories/) [Тэги](/tags/)" }}-->
+{{ markdownify "[GitHub](https://github.com/dvesti/yx/) [Q&A](https://github.com/dvesti/yx/discussions/)" }}
 {{ $section := default .Section ($.Scratch.Get "section") }}
 {{ if .File }}
 {{ with .Site.Params.githubContentURL }}

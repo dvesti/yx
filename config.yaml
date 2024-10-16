@@ -23,21 +23,28 @@ menu:
       weight: 1
     - name: "О блоге"
       url: "/about/"
-      weight: 3
+      weight: 5
     - name: "Архив"
       url: "/ru/"
       weight: 2
     - name: "Поиск"
       url: "/search/"
-    - name: "GitHub"
-      url: "https://github.com/dvesti/yx/"
+      weight: 6
+    - name: "Категории"
+      url: "/categories/"
+      weight: 3
+    - name: "Тэги"
+      url: "/tags/"
       weight: 4
+#    - name: "GitHub"
+#      url: "https://github.com/dvesti/yx/"
+#      weight: 4
 #    - name: "Vitae"
 #      url: "/vitae/"
 #      weight: 4
-    - name: "Q&A"
-      url: "https://github.com/dvesti/yx/discussions/"
-      weight: 5
+#    - name: "Q&A"
+#      url: "https://github.com/dvesti/yx/discussions/"
+#      weight: 5
 #    - name: "Todo"
 #      url: "/todo/"
 #      weight: 6
@@ -47,21 +54,28 @@ menu:
       weight: 1
     - name: "О блоге"
       url: "/about/"
-      weight: 3
+      weight: 5
     - name: "Архив"
       url: "/ru/"
       weight: 2
     - name: "Поиск"
       url: "/search/"
-    - name: "GitHub"
-      url: "https://github.com/dvesti/yx/"
+      weight: 6
+    - name: "Категории"
+      url: "/categories/"
+      weight: 3
+    - name: "Тэги"
+      url: "/tags/"
       weight: 4
+#    - name: "GitHub"
+#      url: "https://github.com/dvesti/yx/"
+#      weight: 4
 #    - name: "Vitae"
 #      url: "/vitae/"
 #      weight: 4
-    - name: "Q&A"
-      url: "https://github.com/dvesti/yx/discussions/"
-      weight: 5
+#    - name: "Q&A"
+#      url: "https://github.com/dvesti/yx/discussions/"
+#      weight: 5
 #
 #  knitr:
 #    - name: "Home"
@@ -148,3 +162,4 @@ markup:
       autoHeadingIDType: blackfriday
   tableOfContents:
     startLevel: 1
+
