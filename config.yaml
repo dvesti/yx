@@ -1,6 +1,6 @@
 baseurl: "https://dvesti.github.io/yx/"
 root: /yx/
-languageCode: "en"
+languageCode: "ru"
 # language name
 #languageName: "RU"
 title: "Ухабы на дорогах"
@@ -28,9 +28,9 @@ menu:
     - name: "Архив"
       url: "/ru/"
       weight: 2
-    - name: "Поиск"
-      url: "/search/"
-      weight: 6
+#    - name: "Поиск"
+#      url: "/search/"
+#      weight: 6
     - name: "Категории"
       url: "/categories/"
       weight: 3
@@ -59,9 +59,9 @@ menu:
     - name: "Архив"
       url: "/ru/"
       weight: 2
-    - name: "Поиск"
-      url: "/search/"
-      weight: 6
+#    - name: "Поиск"
+#      url: "/search/"
+#      weight: 6
     - name: "Категории"
       url: "/categories/"
       weight: 3
@@ -114,11 +114,11 @@ params:
     en:
       alt: YXAB
       img: "/images/logo.jpg"
-      url: "https://dvesti.github.io/yx/"
+      url: "/"
     ru:
       alt: YXAB
       img: "/images/logo.jpg"
-      url: "https://dvesti.github.io/yx/"
+      url: "/"
   githubContentURL: "https://github.com/dvesti/yx/tree/master/content/"
   twitterImage: "/images/logo.jpg"
 
