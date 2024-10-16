@@ -1,4 +1,4 @@
-baseurl: "https://dvesti.github.io/yx/"
+baseurl: "https://dvesti.github.io/yx"
 languageCode: "ru"
 # language name
 #languageName: "RU"
@@ -113,11 +113,11 @@ params:
     en:
       alt: YXAB
       img: "/images/logo.jpg"
-      url: "/"
+      url: "/yx"
     ru:
       alt: YXAB
       img: "/images/logo.jpg"
-      url: "/"
+      url: "/yx"
   githubContentURL: "https://github.com/dvesti/yx/tree/master/content/"
   twitterImage: "/images/logo.jpg"
 
