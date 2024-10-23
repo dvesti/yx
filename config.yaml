@@ -112,11 +112,11 @@ params:
   logo:
     en:
       alt: YXAB
-      img: "/images/logo.jpg"
+      img: "/yx/images/logo.jpg"
       url: "/"
     ru:
       alt: YXAB
-      img: "/images/logo.jpg"
+      img: "/yx/images/logo.jpg"
       url: "/"
   githubContentURL: "https://github.com/dvesti/yx/tree/master/content/"
   twitterImage: "/images/logo.jpg"
