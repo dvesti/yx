@@ -1,4 +1,4 @@
-baseurl: "/" #"https://yxab.netlify.app/"
+baseurl: "https://dvesti.github.io/yx"  #"/" "https://yxab.netlify.app/"
 languageCode: "ru"
 # language name
 #languageName: "RU"
@@ -19,7 +19,7 @@ permalinks:
 menu:
   main:
     - name: "Главная"
-      url: "https://dvesti.github.io/yx" #"/"
+      url: "/"  #"https://dvesti.github.io/yx" #"/"
       weight: 1
     - name: "О блоге"
       url: "/about/"
@@ -112,12 +112,12 @@ params:
   logo:
     en:
       alt: YXAB
-      img: "/yx/images/logo.jpg"
-      url: "/"
+      img: "/images/logo.jpg"
+      url: "/yx/"
     ru:
       alt: YXAB
-      img: "/yx/images/logo.jpg"
-      url: "/"
+      img: "/images/logo.jpg"
+      url: "/yx/"
   githubContentURL: "https://github.com/dvesti/yx/tree/master/content/"
   twitterImage: "/images/logo.jpg"
 
