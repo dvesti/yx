@@ -1,4 +1,4 @@
-baseurl: "https://yxab.netlify.app/"
+baseurl: "/" #"https://yxab.netlify.app/"
 languageCode: "ru"
 # language name
 #languageName: "RU"
@@ -19,7 +19,7 @@ permalinks:
 menu:
   main:
     - name: "Главная"
-      url: "/"
+      url: "https://dvesti.github.io/yx" #"/"
       weight: 1
     - name: "О блоге"
       url: "/about/"
