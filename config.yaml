@@ -1,4 +1,4 @@
-baseurl: "https://yxab.ru"  #"https://yxab.netlify.app"  #"https://dvesti.github.io/yx"  #"/" "https://yxab.netlify.app/"
+baseurl: "https://yxab.ru/"  #"https://yxab.netlify.app"  #"https://dvesti.github.io/yx"  #"/" "https://yxab.netlify.app/"
 languageCode: "ru"
 # language name
 #languageName: "RU"
@@ -112,11 +112,11 @@ params:
   logo:
     en:
       alt: YXAB
-      img: "images/logo.jpg"
+      img: "/images/logo.jpg"
       url: "/"
     ru:
       alt: YXAB
-      img: "images/logo.jpg"
+      img: "/images/logo.jpg"
       url: "/"
   githubContentURL: "https://github.com/dvesti/yx/tree/master/content/"
   twitterImage: "/images/logo.jpg"
