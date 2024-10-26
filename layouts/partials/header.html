@@ -44,6 +44,7 @@
     <link rel="stylesheet" href="{{ printf "css/%s.css" . | relURL }}">
     {{ end }}
     {{ partial "head_custom.html" . }}
+	<link rel="shortcut icon" href="{{ .Site.BaseURL }}images/favicon-16x16.png"/>
   </head>
 
   {{ $section := (replaceRE "^/([^/]+)/.*" "$1" .RelPermalink) }}

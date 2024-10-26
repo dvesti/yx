@@ -3,7 +3,7 @@
 {{ end }}
 {{ if .IsHome }}
 <link rel="me" href="/">
- <link rel="shortcut icon" href="{{ .Site.BaseURL }}images/favicon-16x16.png"/>
+<!-- <link rel="shortcut icon" href="{{ .Site.BaseURL }}images/favicon-16x16.png"/> -->
 {{ end }}
 {{ partial "custom_css.html" (apply .Site.Params.customCSS "print" "utils/" ".") }}
 {{ partial "custom_css.html" .Params.customCSS }}
