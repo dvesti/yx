@@ -142,3 +142,10 @@ help in return just as tiny side jobs.~~ For example:
 [We don't say goodbye](https://youtu.be/WdYaGt_sm3Q). So actually this is not a
 "bye" to anyone, but a "hi" to an unknown new journey. I have enjoyed the past
 decade, and I'm in full curiosity about the future.
+
+Test - 2024-10-29
+> Without a little madness, life is not worth living. Let us follow the guidance
+> of our inner voice. Why should we fry each of our actions like a piece of cake
+> on a sensible frying pan?
+>
+> ---Milan Kundera, "Immortal"
