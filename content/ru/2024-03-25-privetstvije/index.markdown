@@ -9,3 +9,6 @@ tags: []
 ---
 
 Приветствую всех, кто зашёл на [наш блог](https://yxab.netlify.app/)!
+
+![new-post](https://bookdown.org/yihui/blogdown/images/new-post.png)
+

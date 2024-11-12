@@ -13,7 +13,7 @@ featuredImagePreview: "featured.jpg"
 
 А что, уже понедельник?..  
 
-<!--![Кот и Понедельник](https://yxab.ru/ru/2024/11/uzhe-ponedelni/featured.jpg) --> 
+![Кот и Понедельник](https://yxab.ru/ru/2024/11/uzhe-ponedelni/featured.jpg)
 
-![Кот и Понедельник](featured.jpg) 
+![](https://cloud.mail.ru/public/Xa1X/RvN6HCUN7)
 
