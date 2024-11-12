@@ -1,9 +1,5 @@
 ---
 title: ''
-author: ''
-date: ''
-slug: ''
-categories:
-  - Blog
-tags: []
+author: Dvesti
+date: '2024-11-12'
 ---
