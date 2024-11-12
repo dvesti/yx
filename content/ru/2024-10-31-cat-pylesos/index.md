@@ -15,4 +15,5 @@ featuredImagePreview: "featured.jpg"
 Сначала Котёнок не хотел играть с Пылесосом.  
 А потом, --- ничего: втянулся...  
 
-![Кот и Пылесос](https://yxab.netlify.app/ru/2024/10/cat-pylesos/featured.jpg)    
+![Кот и Пылесос](https://yxab.ru/ru/2024/10/cat-pylesos/featured.jpg)  
+
