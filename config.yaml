@@ -1,7 +1,7 @@
 baseurl: "https://yxab.ru/"  #"https://yxab.netlify.app"  #"https://dvesti.github.io/yx"  #"/" "https://yxab.netlify.app/"
 languageCode: "ru"
 # language name
-#languageName: "RU"
+languageName: "RU"
 title: "Ухабы на дорогах"
 theme: "hugo-paged"
 ignoreFiles: ["\\.Rmd$", "\\.Rmarkdown$", "_cache$"]
@@ -110,10 +110,10 @@ params:
     - "toggle-notes.js"
     - "post-nav.js"
   logo:
-    en:
-      alt: YXAB
-      img: "/images/logo.jpg"
-      url: "/"
+#   ru: #en:
+#      alt: YXAB
+#      img: "/images/logo.jpg"
+#      url: "/"
     ru:
       alt: YXAB
       img: "/images/logo.jpg"

@@ -1,5 +1,5 @@
 ---
-title: Уже понедельник!
+title: Уже понедельник?!
 author: Dvesti
 date: '2024-11-01'
 slug: uzhe-ponedelnik
