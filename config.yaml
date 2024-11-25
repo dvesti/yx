@@ -1,4 +1,4 @@
-baseurl: "https://yxab.ru/"  #"https://yxab.netlify.app"  #"https://dvesti.github.io/yx"  #"/" "https://yxab.netlify.app/"
+baseurl: "/" #"https://yxab.ru/"  #"https://yxab.netlify.app"  #"https://dvesti.github.io/yx"  #"/" "https://yxab.netlify.app/"
 languageCode: "ru"
 # language name
 languageName: "RU"
@@ -48,25 +48,25 @@ menu:
 #    - name: "Todo"
 #      url: "/todo/"
 #      weight: 6
-  ru:
-    - name: "Главная"
-      url: "/"
-      weight: 1
-    - name: "О блоге"
-      url: "/about/"
-      weight: 5
-    - name: "Архив"
-      url: "/ru/"
-      weight: 2
-    - name: "Поиск"
-      url: "/search/"
-      weight: 6
-    - name: "Категории"
-      url: "/categories/"
-      weight: 3
-    - name: "Тэги"
-      url: "/tags/"
-      weight: 4
+#  ru:
+#    - name: "Главная"
+#      url: "/"
+#      weight: 1
+#    - name: "О блоге"
+#      url: "/about/"
+#      weight: 5
+#    - name: "Архив"
+#      url: "/ru/"
+#      weight: 2
+#    - name: "Поиск"
+#      url: "/search/"
+#      weight: 6
+#    - name: "Категории"
+#      url: "/categories/"
+#      weight: 3
+#    - name: "Тэги"
+#      url: "/tags/"
+#      weight: 4
 #    - name: "GitHub"
 #      url: "https://github.com/dvesti/yx/"
 #      weight: 4
@@ -110,11 +110,11 @@ params:
     - "toggle-notes.js"
     - "post-nav.js"
   logo:
-#   ru: #en:
-#      alt: YXAB
-#      img: "/images/logo.jpg"
-#      url: "/"
     ru:
+      alt: YXAB
+      img: "/images/logo.jpg"
+      url: "/"
+    en:
       alt: YXAB
       img: "/images/logo.jpg"
       url: "/"
