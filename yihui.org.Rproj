@@ -16,5 +16,5 @@ AutoAppendNewline: Yes
 StripTrailingWhitespace: Yes
 
 BuildType: Website
-WebsitePath: C:/Users/Administrator/Dropbox/R/Xie
+WebsitePath: ~/GitHub/dvesti/yx
 DisableExecuteRprofile: Yes
