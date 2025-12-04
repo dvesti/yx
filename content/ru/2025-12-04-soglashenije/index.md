@@ -6,7 +6,7 @@ slug: soglashenije
 categories:
   - Perly
 tags:
-  - joke
+  - tauto
 ---
 
 Согласно Соглашению согласились с оглашением согласованного (С) Топор ТВ  
